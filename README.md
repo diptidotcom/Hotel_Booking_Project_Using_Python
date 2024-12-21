@@ -7,38 +7,38 @@ To understand the reasons for higher cancellation rates in City and Resort hotel
 
 #  Analysis Steps
 
-## 1️ .Data Cleaning and Preparation:
+### 1️ .Data Cleaning and Preparation:
 
 Handled missing values by using mode for 'country' and median for 'children.'
 Converted date columns into proper formats for analysis.
 Removed irrelevant columns to focus on impactful features.
-## 2️. Exploratory Data Analysis (EDA):
+### 2️. Exploratory Data Analysis (EDA):
 
 Found cancellation rates of 41.73% for City Hotels and 27.76% for Resort Hotels.
 Explored correlations between cancellations and factors like market segments, meal plans, lead time, and ADR (Average Daily Rate).
 Identified Portugal (PRT) as the top country for bookings and cancellations.
-## 3. Data Visualization:
+### 3. Data Visualization:
 
 Used bar and line charts to highlight trends by hotel type, meal plan, lead time, and ADR.
 Bar charts revealed the relationship between market segments and cancellations.
 Visualized cancellation patterns by month and country for clearer insights.
 # Key Insights
-## 1️. Higher ADR Leads to More Cancellations
+### 1️. Higher ADR Leads to More Cancellations
 
 Elevated room prices correlate with increased cancellations, impacting revenue.
-## 2️. Group Segment Drives High Cancellations
+### 2️. Group Segment Drives High Cancellations
 
 The "Groups" market segment had the highest cancellation rates.
-## 3️. High Cancellations in Specific Countries
+### 3️. High Cancellations in Specific Countries
 
 Countries like Portugal (PRT), Great Britain (GBR), and Spain (ESP) showed significantly higher cancellation rates.
-## 4️.Seasonal Peaks in Cancellations
+### 4️.Seasonal Peaks in Cancellations
 
 Cancellations peak in months with higher ADRs (e.g., January for City Hotels, June for Resort Hotels).
-## 5️. OTAs and Groups Contribute to High Cancellations
+### 5️. OTAs and Groups Contribute to High Cancellations
 
 Bookings via OTAs (Online Travel Agents) and the Groups segment were frequent contributors to cancellations.
-## 6️. Long Lead Times = Higher Cancellations
+### 6️. Long Lead Times = Higher Cancellations
 
 Customers booking well in advance were more likely to cancel.
 #  Actionable Recommendations
